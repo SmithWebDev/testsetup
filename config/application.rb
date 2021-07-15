@@ -41,6 +41,7 @@ module Testsetup
                        helper_specs: false,
                        routing_specs: false,
                        controller_specs: false
+      g.factory_bot suffix: 'factory'
     end
   end
 end

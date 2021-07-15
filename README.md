@@ -1,3 +1,4 @@
+### Rspec
 - rails g rspec:install
 ```
 --color
@@ -16,7 +17,16 @@ config.generators do |g|
 end
 ```
 
+### Factory Bot
 - rspec helper
 ```
 config.include FactoryBot::Syntax::Methods
+```
+
+- config/application.rb
+  - can be added to the same generator config used for rspec
+```
+config.generators do |g|
+  g.factory_bot suffix: 'factory'
+end
 ```
