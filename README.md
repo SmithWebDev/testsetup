@@ -15,3 +15,8 @@ config.generators do |g|
                    controller_specs: false
 end
 ```
+
+- rspec helper
+```
+config.include FactoryBot::Syntax::Methods
+```
