@@ -18,7 +18,7 @@ end
 ```
 
 ### Factory Bot
-- rspec helper
+- spec helper
 ```
 config.include FactoryBot::Syntax::Methods
 ```
